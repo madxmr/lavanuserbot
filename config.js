@@ -28,7 +28,7 @@ module.exports = {
     BRANCH: 'master',
     DATABASE_URL: DATABASE_URL,
     DATABASE: DATABASE_URL === './Lavanstax.db' ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: DEBUG }) : new Sequelize(DATABASE_URL, { dialectOptions: { ssl: { require: true, rejectUnauthorized: false } }, logging: DEBUG }),
-    AFK_MESSAGE: process.env.AFK_MESSAGE === undefined ? 'Hayat çok kısa, yapacak çok şey var...\nOnlardan birini yapıyorum.. Sahibim şuanda #AFK' : process.env.AFK_MESSAGE,
+    AFK_MESSAGE: process.env.AFK_MESSAGE === undefined ? 'Hayat çok kısa, yapacak çok şey var...\nOnlardan birini yapıyorum.. Sahibim şuanda #AFK İam X Kadir' : process.env.AFK_MESSAGE,
     SEND_READ: process.env.SEND_READ === undefined ? 'false' : process.env.SEND_READ,
     PENDING_REQUEST: process.env.PENDING_REQUEST === undefined ? 'true' : process.env.PENDING_REQUEST,
     FOLLOW_SEND: process.env.FOLLOW_SEND === undefined ? 'true' : process.env.FOLLOW_SEND,

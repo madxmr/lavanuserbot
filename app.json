@@ -42,7 +42,7 @@
    "AFK_MESSAGE": {
     "description": "Geçerli afk mesajınız",
     "required": "true",
-    "value": "Hayat çok kısa, yapacak çok şey var...\nOnlardan birini yapıyorum.. Sahibim şuanda #AFK"
+    "value": "Hayat çok kısa, yapacak çok şey var...\nOnlardan birini yapıyorum.. Sahibim şuanda #AFK İam Kadir"
    },
    "BOTLOG_CHATID": {
     "description": "Botlog chat ıd",
