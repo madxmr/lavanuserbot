@@ -42,8 +42,8 @@ module.exports.run = async (bot, message, args) => {
 
 
 module.exports.config = {
-    command: 'lavanstax',
-    alias: 'lavan',
+    command: 'iamkadir',
+    alias: 'kadir',
     description: 'Tüm komutlarımı veya belirli bir komutla ilgili bilgileri listeleyin.',
     usage: '[komut adı]',
     cooldown: 5

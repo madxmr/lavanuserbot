@@ -15,10 +15,10 @@ module.exports.run = async (bot, message, args) => {
     var randomstring = arr => arr[Math.floor(Math.random() * arr.length)];
     ALIVE_STR = randomstring([
         "Userbotunuz çalışıyor ve sana bişey demek istiyor... Seni seviyorum❤️  ",
-        "🎆 Endişelenme! Seni yanlız bırakmam. Lavanstax çalışıyor.",
-        "⛈️ Elimden gelenin en iyisini yapmaya hazırım. ",
-        "✨ Lavanstax sahibinin emirlerine hazır...  ",
-        "Lavanstax Çalışıyor.  ",
+        "🎆 Endişelenme! Seni yanlız bırakmam. Botumuz çalışıyor.",
+        "⛈️ Elimden gelenin en iyisini yapmaya hazırım Senin için Kadir'im .d ",
+        "✨ Kadir bey sahibinin emirlerine hazır...  ",
+        "Botumuz Aktif gülüm Çalışıyor.  ",
         "Benimi Aramıştın ❓ Ben Buradayım Merak Etme  ",
         "Hey beni mi aramıştın? Ben buradayım merak etme! sadece kodlarıma göz atıyordum...",
         "Botunuz çöktü lütfen yeniden kurun!\nHahahaha sadece şaka yapıyorum dynom bitene kadar başının belasıyım...",
@@ -31,7 +31,7 @@ module.exports.run = async (bot, message, args) => {
     }
 
 module.exports.config = {
-    command: "alive",
+    command: "k",
     description: `${Lang.ALIVE_DESC}`
 }
 
